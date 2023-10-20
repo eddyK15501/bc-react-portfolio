@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 import { useState, useEffect } from "react";
-import "../sass/Homepage.scss";
 import TextTransition, { presets } from "react-text-transition";
+import "../sass/Homepage.scss";
 
 const TEXTS = ["Frontend Web Development", "Reimagined"];
 
