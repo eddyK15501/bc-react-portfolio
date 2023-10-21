@@ -9,7 +9,7 @@ const NavBar = () => {
   return (
     <>
       <Navbar expand="lg" className="bg-primary" fixed="top">
-        <Container>
+        <Container fluid className="px-5">
           <Navbar.Brand className="fs-1 text-light" as={Link} to="/">
             <FontAwesomeIcon icon={faCameraRetro} />
           </Navbar.Brand>

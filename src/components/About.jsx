@@ -9,7 +9,9 @@ const About = () => {
             <Row className="w-100 gx-5 fg">
                 <Col lg={4} className="d-flex justify-content-center mt-5">
                     <div id="img-container">
-                        <img src="https://user-images.githubusercontent.com/88423414/277078695-7f115a5c-ec72-4038-997f-55606e4dd8d6.jpg" alt="portfolio-image" />
+                        <a href="https://github.com/eddyK15501/react-portfolio-bc/issues/1">
+                            <img src="https://user-images.githubusercontent.com/88423414/277078695-7f115a5c-ec72-4038-997f-55606e4dd8d6.jpg" alt="portfolio-image" />
+                        </a>
                     </div>
                 </Col>
                 <Col lg={5} className="d-flex flex-column justify-content-center text-center text-lg-start">

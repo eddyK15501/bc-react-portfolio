@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["Frontend Web Development", "is my proficiency."];
+const TEXTS = ["Vite.js", "Bootstrap", "SCSS", "10 Day Build."];
 
 const Homepage = () => {
   const [index, setIndex] = useState(0);
