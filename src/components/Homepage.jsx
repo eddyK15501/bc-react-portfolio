@@ -14,7 +14,7 @@ const Homepage = () => {
   }, []);
 
   return (
-    <Container className="d-flex flex-column justify-content-center align-items-center background-pic">
+    <Container fluid className="d-flex flex-column justify-content-center align-items-center background-pic">
       <div className="d-flex flex-column">
         <h1 className="display-4 fw-normal text-primary-emphasis">
           React Portfolio

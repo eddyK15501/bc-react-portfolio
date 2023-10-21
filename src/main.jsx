@@ -8,6 +8,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import App from "./App.jsx";
 import Homepage from "./components/Homepage.jsx";
 import About from "./components/About.jsx";
+import Portfolio from "./components/Portfolio.jsx";
 import ErrorPage from "./pages/ErrorPage.jsx";
 
 const router = createBrowserRouter([
@@ -23,6 +24,10 @@ const router = createBrowserRouter([
       {
         path: '/about',
         element: <About />
+      },
+      {
+        path: '/portfolio',
+        element: <Portfolio />,
       }
     ]
   },
