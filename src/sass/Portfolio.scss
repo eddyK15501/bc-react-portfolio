@@ -2,15 +2,30 @@
     padding-top: 9rem;
 }
 
+.static-image {
+    display: block;
+    z-index: 1;
+}
+
 .gif-image {
     display: none;
 }
-  
-.static-image {
-    display: block;
+
+.gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.img-contain {
+    width: 100%;
+    height: 100%;
 }
   
-.visible {
-    display: block;
+.img-container:hover .static-image {
+    display: none;
 }
   
+.img-container:hover .gif-image {
+    display: block;
+}  
