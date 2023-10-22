@@ -1,3 +1,14 @@
-#contact-form {
-    padding: 2rem 7rem 0;
+.contact-links {
+    gap: 0.65rem;
+    margin-left: 6.5rem;
+}
+
+.contact-links a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+}
+
+.link-container {
+    gap: 0.5rem;
 }
