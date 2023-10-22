@@ -15,14 +15,11 @@ const Portfolio = () => {
   };
 
   return (
-    <Container fluid className="vw-vh">
-      <div className="text-center mb-5" id="portfolio-heading">
-        <h1 className="display-6">Portfolio</h1>
-      </div>
+    <Container fluid className="vw-vh d-flex justify-content-center align-items-center">
       <Container className="d-flex flex-column justify-content-center align-items-center">
         <Container className="d-flex justify-content-center align-items-center">
           <Row className="gx-5 justify-content-center text-center">
-            <ProjectImage {...handleMouseEnter} {...handleMouseLeave}>
+            <ProjectImage {...handleMouseEnter} {...handleMouseLeave} title="React Portfolio">
               <a href="https://eddyk15501.github.io/portfolio/">
                 <img
                   className={hover ? "static-image" : ""}
@@ -37,7 +34,7 @@ const Portfolio = () => {
               </a>
             </ProjectImage>
 
-            <ProjectImage {...handleMouseEnter} {...handleMouseLeave}>
+            <ProjectImage {...handleMouseEnter} {...handleMouseLeave} title="Gif-Me" >
               <a href="https://eddyk15501.github.io/unc-bootcamp-project-01/">
                 <img
                   className={hover ? "static-image" : ""}
@@ -52,7 +49,7 @@ const Portfolio = () => {
               </a>
             </ProjectImage>
 
-            <ProjectImage {...handleMouseEnter} {...handleMouseLeave}>
+            <ProjectImage {...handleMouseEnter} {...handleMouseLeave} title="Todolist-Fullstack">
               <a href="https://eddyk15501-todolist-fullstack-10e1ec26e1dc.herokuapp.com/">
                 <img
                   className={hover ? "static-image" : ""}
