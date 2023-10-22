@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
-import './scss/App.scss'
+import './sass/App.scss'
 import Navbar from './components/NavBar'
 import { Outlet } from 'react-router-dom'
 
 const App = () => {
   return (
-    <div className="main-app-container">
+    <div className="main-container">
       <Navbar />
       <Outlet />
     </div>
