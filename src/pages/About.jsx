@@ -4,7 +4,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 const About = () => {
   return ( 
-    <Container fluid className="d-flex justify-content-center align-items-center vw-vh">
+    <Container fluid className="vw-vh d-flex justify-content-center align-items-center">
         <Container className="d-flex justify-content-center align-items-center">
             <Row className="w-100 gx-5 fg-2">
                 <Col lg={4} className="d-flex justify-content-center">
