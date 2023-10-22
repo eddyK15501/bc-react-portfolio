@@ -23,7 +23,7 @@ const Portfolio = () => {
               <a href="https://eddyk15501.github.io/portfolio/">
                 <img
                   className={hover ? "static-image" : ""}
-                  src="https://user-images.githubusercontent.com/88423414/277144826-8dadb407-c950-44d1-8c28-493baf3aad13.png"
+                  src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="project-one-image"
                 />
                 <img
@@ -38,7 +38,7 @@ const Portfolio = () => {
               <a href="https://eddyk15501.github.io/unc-bootcamp-project-01/">
                 <img
                   className={hover ? "static-image" : ""}
-                  src="https://user-images.githubusercontent.com/88423414/277141422-189d5995-0d64-4035-b500-1b1f35543335.png"
+                  src="https://images.unsplash.com/photo-1518548183878-5e1fcea68bb9?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="project-two-image"
                 />
                 <img
@@ -53,7 +53,7 @@ const Portfolio = () => {
               <a href="https://eddyk15501-todolist-fullstack-10e1ec26e1dc.herokuapp.com/">
                 <img
                   className={hover ? "static-image" : ""}
-                  src="https://user-images.githubusercontent.com/88423414/277143541-499aefd8-d74a-492a-8c83-a780431f0c12.png"
+                  src="https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?auto=format&fit=crop&q=80&w=2839&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                   alt="project-three-image"
                 />
                 <img
