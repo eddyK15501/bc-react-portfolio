@@ -16,7 +16,7 @@ const NavigationBar = () => {
   return (
     <>
       <Navbar
-        expand="lg"
+        expand="md"
         className="bg-primary"
         fixed="top"
         expanded={expanded}

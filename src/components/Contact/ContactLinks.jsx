@@ -4,7 +4,7 @@ import React from "react";
 
 const ContactLinks = ({ link, title, children }) => {
   return (
-    <div className="d-flex align-items-center link-container">
+    <div className="d-flex align-items-center mb-3">
       <a href={`${link}`}>
         {children}
         {title}

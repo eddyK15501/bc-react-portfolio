@@ -4,10 +4,12 @@ import React from "react";
 import ContactLinks from "../components/Contact/ContactLinks";
 import {
   Button,
+  Col,
   Container,
   FloatingLabel,
   Form,
   InputGroup,
+  Row,
 } from "react-bootstrap";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,10 +21,16 @@ import "../sass/Contact.scss";
 
 const Contact = () => {
   return (
-    <Container className="vw-vh d-flex justify-content-center align-items-center">
-      <div className="w-100 flex-grow-1 flex-shrink-1">
-        <h1 className="text-center mb-5">Let's Connect!</h1>
-        <Container className="d-flex flex-column justify-content-center align-items-start contact-links">
+    <Container
+      className="vw-vh d-flex justify-content-center align-items-center contact"
+    >
+      <Row className="w-100 row-gap">
+        <Col
+          lg={6}
+          className="d-flex flex-column justify-content-center align-items-center"
+        >
+          <h1 className="text-center mb-5">Let's Connect!</h1>
+          <div className="contact-link-container">
           <ContactLinks
             link="https://www.github.com/eddyK15501"
             title="https://www.github.com/eddyK15501"
@@ -46,52 +54,50 @@ const Contact = () => {
               style={{ marginLeft: "0.1rem", marginRight: "0.7rem" }}
             />
           </ContactLinks>
-        </Container>
-      </div>
+          </div>
+        </Col>
 
-      <Form
-        className="w-100 flex-grow-1 flex-shrink-1"
-        data-netlify="true"
-        method="post"
-        style={{ padding: "2rem 7.5rem 0" }}
-      >
-        <InputGroup>
-          <InputGroup.Text id="basic-addon1">
-            <FontAwesomeIcon icon={faEnvelope} />
-          </InputGroup.Text>
-          <Form.Control
-            type="email"
-            name="email"
-            placeholder="Your Email Address"
-          />
-        </InputGroup>
+        <Col lg={6} className="d-flex justify-content-center">
+          <Form className="email-form w-75" data-netlify="true" method="post">
+            <InputGroup>
+              <InputGroup.Text id="basic-addon1">
+                <FontAwesomeIcon icon={faEnvelope} />
+              </InputGroup.Text>
+              <Form.Control
+                type="email"
+                name="email"
+                placeholder="Your Email Address"
+              />
+            </InputGroup>
 
-        <InputGroup className="mt-4">
-          <InputGroup.Text id="basic-addon1">
-            <FontAwesomeIcon icon={faCommentDots} />
-          </InputGroup.Text>
-          <Form.Control type="text" name="title" placeholder="Title" />
-        </InputGroup>
+            <InputGroup className="mt-4">
+              <InputGroup.Text id="basic-addon1">
+                <FontAwesomeIcon icon={faCommentDots} />
+              </InputGroup.Text>
+              <Form.Control type="text" name="title" placeholder="Title" />
+            </InputGroup>
 
-        <FloatingLabel
-          className="mt-4"
-          controlId="floatingTextarea2"
-          label="Send Me A Message!"
-          style={{ color: "grey" }}
-        >
-          <Form.Control
-            as="textarea"
-            name="message"
-            placeholder="Leave a comment here"
-            style={{ height: "180px", resize: "none", color: "#000" }}
-          />
-        </FloatingLabel>
-        <div className="mt-4 d-flex justify-content-center align-items-center">
-          <Button className="w-25" variant="primary" type="submit">
-            Submit
-          </Button>
-        </div>
-      </Form>
+            <FloatingLabel
+              className="mt-4"
+              controlId="floatingTextarea2"
+              label="Send Me A Message!"
+              style={{ color: "grey" }}
+            >
+              <Form.Control
+                as="textarea"
+                name="message"
+                placeholder="Leave a comment here"
+                style={{ height: "180px", resize: "none", color: "#000" }}
+              />
+            </FloatingLabel>
+            <div className="mt-4 d-flex justify-content-center align-items-center">
+              <Button className="w-25" variant="primary" type="submit">
+                Submit
+              </Button>
+            </div>
+          </Form>
+        </Col>
+      </Row>
     </Container>
   );
 };

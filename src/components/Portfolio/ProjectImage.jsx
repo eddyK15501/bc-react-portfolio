@@ -5,7 +5,7 @@ import { Col } from "react-bootstrap";
 
 const ProjectImage = ({ handleMouseEnter, handleMouseLeave, title, children }) => {
   return (
-    <Col lg={4} className="d-flex justify-content-center">
+    <Col md={4} className="d-flex justify-content-center" style={{ margin: '1.1rem', width: '360px' }}>
       <div
         className="img-container"
         onMouseEnter={handleMouseEnter}
