@@ -2,17 +2,16 @@
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
 import ContactLinks from "../components/Contact/ContactLinks";
+import ContactForm from "../components/Contact/ContactForm";
 import {
   Button,
   Col,
   Container,
   FloatingLabel,
   Form,
-  InputGroup,
   Row,
 } from "react-bootstrap";
 
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCommentDots, faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { AiOutlineGithub, AiOutlineLinkedin } from "react-icons/ai";
 import { MdOutlineAlternateEmail } from "react-icons/md";
@@ -21,9 +20,7 @@ import "../sass/Contact.scss";
 
 const Contact = () => {
   return (
-    <Container
-      className="vw-vh d-flex justify-content-center align-items-center contact"
-    >
+    <Container className="vw-vh d-flex justify-content-center align-items-center contact">
       <Row className="w-100 row-gap">
         <Col
           lg={6}
@@ -31,52 +28,46 @@ const Contact = () => {
         >
           <h1 className="text-center mb-5">Let's Connect!</h1>
           <div className="contact-link-container">
-          <ContactLinks
-            link="https://www.github.com/eddyK15501"
-            title="https://www.github.com/eddyK15501"
-          >
-            <AiOutlineGithub size={40} style={{ marginRight: "0.5rem" }} />
-          </ContactLinks>
-
-          <ContactLinks
-            link="https://www.linkedin.com/in/edwardkim1231"
-            title="https://www.linkedin.com/in/edwardkim1231"
-          >
-            <AiOutlineLinkedin size={40} style={{ marginRight: "0.5rem" }} />
-          </ContactLinks>
-
-          <ContactLinks
-            link="mailto:edk1231@gmail.com"
-            title="edk1231@gmail.com"
-          >
-            <MdOutlineAlternateEmail
-              size={35}
-              style={{ marginLeft: "0.1rem", marginRight: "0.7rem" }}
-            />
-          </ContactLinks>
+            <ContactLinks
+              link="https://www.github.com/eddyK15501"
+              title="https://www.github.com/eddyK15501"
+            >
+              <AiOutlineGithub size={40} style={{ marginRight: "0.5rem" }} />
+            </ContactLinks>
+            <ContactLinks
+              link="https://www.linkedin.com/in/edwardkim1231"
+              title="https://www.linkedin.com/in/edwardkim1231"
+            >
+              <AiOutlineLinkedin size={40} style={{ marginRight: "0.5rem" }} />
+            </ContactLinks>
+            <ContactLinks
+              link="mailto:edk1231@gmail.com"
+              title="edk1231@gmail.com"
+            >
+              <MdOutlineAlternateEmail
+                size={35}
+                style={{ marginLeft: "0.1rem", marginRight: "0.7rem" }}
+              />
+            </ContactLinks>
           </div>
         </Col>
-
         <Col lg={6} className="d-flex justify-content-center">
           <Form className="email-form w-75" data-netlify="true" method="post">
-            <InputGroup>
-              <InputGroup.Text id="basic-addon1">
-                <FontAwesomeIcon icon={faEnvelope} />
-              </InputGroup.Text>
-              <Form.Control
-                type="email"
-                name="email"
-                placeholder="Your Email Address"
-              />
-            </InputGroup>
-
-            <InputGroup className="mt-4">
-              <InputGroup.Text id="basic-addon1">
-                <FontAwesomeIcon icon={faCommentDots} />
-              </InputGroup.Text>
-              <Form.Control type="text" name="title" placeholder="Title" />
-            </InputGroup>
-
+            <ContactForm
+              icon={faEnvelope}
+              id="basic-addon1"
+              type="email"
+              name="email"
+              placeholder="Your Email Address"
+            />
+            <ContactForm
+              className="mt-4"
+              icon={faCommentDots}
+              id="basic-addon2"
+              type="text"
+              name="title"
+              placeholder="Title"
+            />
             <FloatingLabel
               className="mt-4"
               controlId="floatingTextarea2"

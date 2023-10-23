@@ -1,0 +1,10 @@
+.resume-container {
+    display: inline-block;
+    padding: 0.9375rem 0.9375rem 3.125rem;
+    box-shadow: 2px 4px 7px rgb(0 0 0 / 50%);
+}
+  
+.resume-container:hover {
+    transform: scale(1.1);
+}
+  
