@@ -1,13 +1,17 @@
 /* eslint-disable no-unused-vars */
-import React from 'react'
+import { useEffect } from 'react'
 import './sass/App.scss'
-import Navbar from './components/NavBar'
+import NavigationBar from './components/NavigationBar'
 import { Outlet } from 'react-router-dom'
 
 const App = () => {
+  useEffect(() => {
+    document.cookie = "myCookie=myValue; SameSite=None; Secure";
+  }, [])
+
   return (
     <div className="main-container">
-      <Navbar />
+      <NavigationBar />
       <Outlet />
     </div>
   )

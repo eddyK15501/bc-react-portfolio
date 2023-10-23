@@ -1,7 +1,7 @@
 /* eslint-disable no-unused-vars */
 /* eslint-disable react/no-unescaped-entities */
 import React from "react";
-import ContactLinks from "../components/ContactLinks";
+import ContactLinks from "../components/Contact/ContactLinks";
 import {
   Button,
   Container,
@@ -38,8 +38,8 @@ const Contact = () => {
           </ContactLinks>
 
           <ContactLinks
-            link="mailto:fifteenbackwoods501@gmail.com"
-            title="fifteenbackwoods501@gmail.com"
+            link="mailto:edk1231@gmail.com"
+            title="edk1231@gmail.com"
           >
             <MdOutlineAlternateEmail
               size={35}
