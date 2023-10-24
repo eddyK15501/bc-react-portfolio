@@ -9,6 +9,7 @@
 
 .email-form {
     padding-top: 2rem;
+    width: 65%;
 }
 
 @media screen and (max-width: 992px) {
@@ -48,6 +49,10 @@
 }
 
 @media screen and (max-width: 450px) {
+    .email-form {
+        width: 90%;
+    }
+
     .contact button {
         width: 50% !important;
     }

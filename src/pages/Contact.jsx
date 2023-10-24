@@ -23,7 +23,7 @@ const Contact = () => {
     <Container className="vw-vh d-flex justify-content-center align-items-center contact">
       <Row className="w-100 row-gap">
         <Col
-          lg={6}
+          lg={5}
           className="d-flex flex-column justify-content-center align-items-center"
         >
           <h1 className="text-center mb-5">Let's Connect!</h1>
@@ -51,8 +51,8 @@ const Contact = () => {
             </ContactLinks>
           </div>
         </Col>
-        <Col lg={6} className="d-flex justify-content-center">
-          <Form className="email-form w-75" data-netlify="true" method="post">
+        <Col lg={7} className="d-flex justify-content-center">
+          <Form className="email-form" data-netlify="true" method="post">
             <ContactForm
               icon={faEnvelope}
               id="basic-addon1"
