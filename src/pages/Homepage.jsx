@@ -3,13 +3,13 @@ import { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["Vite.js", "Bootstrap", "SASS", "Netlify", "a 10 Day Build."];
+const TEXTS = ["Vite.js", "React-Bootstrap", "Sass", "Netlify", "10 Day Build."];
 
 const Homepage = () => {
   const [index, setIndex] = useState(0);
 
   useEffect(() => {
-    const intervalId = setInterval(() => setIndex((prev) => prev + 1), 3000);
+    const intervalId = setInterval(() => setIndex((prev) => prev + 1), 1500);
     return () => clearTimeout(intervalId);
   }, []);
 
