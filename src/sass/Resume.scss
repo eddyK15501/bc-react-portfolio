@@ -27,3 +27,14 @@
 .edu-bottom ul {
     margin-bottom: 0.3rem;
 }
+
+@media screen and (max-width: 1024px) {
+    .resume-container {
+        width: 100%;
+        padding: 5rem 1rem;
+    }
+
+    .resume-container a {
+        word-wrap: break-word;
+    }
+}

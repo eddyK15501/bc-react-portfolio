@@ -16,9 +16,9 @@ const Portfolio = () => {
 
   return (
     <Container fluid className="vw-vh d-flex justify-content-center align-items-center" id="portfolio">
-      <Container className="d-flex flex-column justify-content-center align-items-center">
+      <Container className="d-flex flex-column justify-content-center align-items-center project-container">
         <Container className="d-flex justify-content-center align-items-center">
-          <Row className="gx-5 justify-content-center text-center flex-wrap">
+          <Row className="gx-5 justify-content-center text-center flex-wrap project-row">
             <ProjectImage {...handleMouseEnter} {...handleMouseLeave} title="React Portfolio">
               <a href="https://eddyk15501.github.io/portfolio/">
                 <img
