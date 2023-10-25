@@ -1,0 +1,5 @@
+# Redirect all root requests to the index page
+/    /index.html 200
+
+# Redirect all requests for unknown pages to the index page
+*    /index.html 404
