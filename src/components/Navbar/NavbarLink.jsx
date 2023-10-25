@@ -2,7 +2,7 @@
 /* eslint-disable react/prop-types */
 import React from "react";
 import { Nav } from "react-bootstrap";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export const NavbarLink = ({ closeNavbar, path, children }) => {
   return (
@@ -16,4 +16,3 @@ export const NavbarLink = ({ closeNavbar, path, children }) => {
     </Nav.Link>
   );
 };
-

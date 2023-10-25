@@ -3,7 +3,13 @@ import { useState, useEffect } from "react";
 import { Container } from "react-bootstrap";
 import TextTransition, { presets } from "react-text-transition";
 
-const TEXTS = ["Vite.js", "React-Bootstrap", "Sass", "Netlify", "10 Day Build."];
+const TEXTS = [
+  "Vite.js",
+  "React-Bootstrap",
+  "Sass",
+  "Netlify",
+  "10 Day Build.",
+];
 
 const Homepage = () => {
   const [index, setIndex] = useState(0);
@@ -14,7 +20,10 @@ const Homepage = () => {
   }, []);
 
   return (
-    <Container fluid className="d-flex flex-column justify-content-center align-items-center vw-vh">
+    <Container
+      fluid
+      className="d-flex flex-column justify-content-center align-items-center vw-vh"
+    >
       <div className="d-flex flex-column">
         <h1 className="display-4 fw-normal text-primary-emphasis">
           React Portfolio

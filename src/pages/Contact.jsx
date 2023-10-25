@@ -20,7 +20,10 @@ import "../sass/Contact.scss";
 
 const Contact = () => {
   return (
-    <Container className="vw-vh d-flex justify-content-center align-items-center" id="contact">
+    <Container
+      className="vw-vh d-flex justify-content-center align-items-center"
+      id="contact"
+    >
       <Row className="w-100 row-gap">
         <Col
           lg={5}
@@ -52,7 +55,12 @@ const Contact = () => {
           </div>
         </Col>
         <Col lg={7} className="d-flex justify-content-center">
-          <Form className="email-form" data-netlify="true" method="post" name="contact-form">
+          <Form
+            className="email-form"
+            data-netlify="true"
+            method="post"
+            name="contact-form"
+          >
             <input type="hidden" name="form-name" value="contact-form" />
             <ContactForm
               icon={faEnvelope}

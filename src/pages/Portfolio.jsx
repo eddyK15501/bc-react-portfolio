@@ -15,12 +15,24 @@ const Portfolio = () => {
   };
 
   return (
-    <Container fluid className="vw-vh d-flex justify-content-center align-items-center" id="portfolio">
+    <Container
+      fluid
+      className="vw-vh d-flex justify-content-center align-items-center"
+      id="portfolio"
+    >
       <Container className="d-flex flex-column justify-content-center align-items-center project-container">
         <Container className="d-flex justify-content-center align-items-center">
           <Row className="gx-5 justify-content-center text-center flex-wrap project-row">
-            <ProjectImage {...handleMouseEnter} {...handleMouseLeave} title="React Portfolio">
-              <a href="https://eddyk15501.github.io/portfolio/">
+            <ProjectImage
+              {...handleMouseEnter}
+              {...handleMouseLeave}
+              title="React Portfolio"
+            >
+              <a
+                href="https://eddyk15501.github.io/portfolio/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className={hover ? "static-image" : ""}
                   src="https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -34,8 +46,16 @@ const Portfolio = () => {
               </a>
             </ProjectImage>
 
-            <ProjectImage {...handleMouseEnter} {...handleMouseLeave} title="Gif-Me" >
-              <a href="https://eddyk15501.github.io/unc-bootcamp-project-01/">
+            <ProjectImage
+              {...handleMouseEnter}
+              {...handleMouseLeave}
+              title="Gif-Me"
+            >
+              <a
+                href="https://eddyk15501.github.io/unc-bootcamp-project-01/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className={hover ? "static-image" : ""}
                   src="https://images.unsplash.com/photo-1518548183878-5e1fcea68bb9?auto=format&fit=crop&q=80&w=2940&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
@@ -49,8 +69,16 @@ const Portfolio = () => {
               </a>
             </ProjectImage>
 
-            <ProjectImage {...handleMouseEnter} {...handleMouseLeave} title="Todolist-Fullstack">
-              <a href="https://eddyk15501-todolist-fullstack-10e1ec26e1dc.herokuapp.com/">
+            <ProjectImage
+              {...handleMouseEnter}
+              {...handleMouseLeave}
+              title="Todolist-Fullstack"
+            >
+              <a
+                href="https://eddyk15501-todolist-fullstack-10e1ec26e1dc.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <img
                   className={hover ? "static-image" : ""}
                   src="https://images.unsplash.com/photo-1611224885990-ab7363d1f2a9?auto=format&fit=crop&q=80&w=2839&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
