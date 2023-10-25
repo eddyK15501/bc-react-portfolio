@@ -6,7 +6,7 @@
 `React.js` portfolio built with `Vite.js`. Utilizing React-Bootstrap as a CSS framework. Syntactically Awesome Stylesheets (Sass) integrated for enhanced styling over traditional CSS. React-Icons and FontAwesome incorporated for a diverse set of icons. Text animations added to the Homepage, using the React-Text-Transition Node.js dependency. Netlify serverless forms enabled to facilitate email configuration for the Contact page. Hosted and deployed on Netlify. Fully responsive.
 
 ## Link to the Deployed Application
-* [Click Here](https://reactportfolio-eddyk15501.netlify.app/)
+* <a href="https://reactportfolio-eddyk15501.netlify.app/">Click Here</a>
 
 ## Usage
 * #### Click on the hyperlink above. Check it out!
