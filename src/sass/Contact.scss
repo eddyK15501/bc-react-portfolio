@@ -1,4 +1,4 @@
-.contact a {
+#contact a {
     text-decoration: none;
     white-space: nowrap;
 }
@@ -13,12 +13,12 @@
 }
 
 @media screen and (max-width: 992px) {
-    .contact {
+    #contact {
         width: 100%;
         min-width: 100vw;
         height: 100%;
         min-height: 100vh; 
-        padding: 10rem 0;
+        padding: 12rem 0;
     }
 
     .contact-link-container {
@@ -35,7 +35,7 @@
 }
 
 @media screen and (max-width: 768px) {
-    .contact h1 {
+    #contact h1 {
         margin: 0 !important;
     }
 
@@ -53,7 +53,7 @@
         width: 90%;
     }
 
-    .contact button {
+    #contact button {
         width: 50% !important;
     }
 }

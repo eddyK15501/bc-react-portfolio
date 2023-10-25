@@ -122,7 +122,7 @@ const Resume = () => {
           <h3>Courses/Certifications</h3>
           <div className="my-resume-certificates">
             <ul>
-              <li>
+              <li id="resource-one">
                 <h5>Codecademy</h5>
                 <div className="certificate">
                   <ul>
@@ -133,7 +133,7 @@ const Resume = () => {
             </ul>
 
             <ul>
-              <li>
+              <li id="resource-two">
                 <h5>Udemy</h5>
                 <div className="certificate">
                   <ul>

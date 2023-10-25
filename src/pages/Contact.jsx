@@ -20,7 +20,7 @@ import "../sass/Contact.scss";
 
 const Contact = () => {
   return (
-    <Container className="vw-vh d-flex justify-content-center align-items-center contact">
+    <Container className="vw-vh d-flex justify-content-center align-items-center" id="contact">
       <Row className="w-100 row-gap">
         <Col
           lg={5}

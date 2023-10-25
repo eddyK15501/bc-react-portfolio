@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import '../sass/About.scss';
 
 const About = () => {
   return (
@@ -9,7 +10,7 @@ const About = () => {
       fluid
       className="vw-vh d-flex justify-content-center align-items-center"
     >
-      <Container className="d-flex justify-content-center align-items-center">
+      <Container className="d-flex justify-content-center align-items-center" id="about">
         <Row className="w-100 gx-5 fg-2">
           <Col lg={4} className="d-flex justify-content-center">
             <div className="img-container">
@@ -39,7 +40,7 @@ const About = () => {
               good challenge. If you're looking for a frontend aficionado who brings
               enthusiasm and creativity to every project, you've come across the right
               guy.</p>
-            <h5 className="fw-bold text-end me-5" style={{ fontFamily: 'Over the Rainbow, cursive' }}>Cheers.</h5>
+            <h5 className="fw-bold text-center text-lg-end me-5" style={{ fontFamily: 'Over the Rainbow, cursive' }}>Cheers.</h5>
           </Col>
         </Row>
       </Container>
