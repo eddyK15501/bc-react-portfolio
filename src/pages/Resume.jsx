@@ -19,11 +19,11 @@ const Resume = () => {
           <p>Frontend Web Developer</p>
         </div>
 
-        <div>
+        <div className="main-projects-container">
           <h3 style={{ marginTop: "3rem" }}>Projects</h3>
           <div className="my-resume-projects">
             <div className="project">
-              <ul>
+              <ul className="project-links-container">
                 <li>
                   <h5 className="mb-3">Tech Blog</h5>
                   <p className="text-muted">
@@ -204,7 +204,7 @@ const Resume = () => {
 
         <div className="my-resume-skills">
           <h3>Skills</h3>
-          <div className="skills-container d-flex justify-content-between align-items-start flex-wrap">
+          <div className="skills-container d-flex justify-content-between align-items-start">
             <ul>
               <li>HTML</li>
               <li>CSS</li>

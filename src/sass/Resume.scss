@@ -38,3 +38,63 @@
         word-wrap: break-word;
     }
 }
+
+@media screen and (max-width: 425px) {
+    #resume {
+        text-align: center;
+    }
+
+    #resume ul {
+        padding: 0;
+    }
+
+    #resume li {
+        list-style-type: none;
+    }
+
+    .my-resume-header h2 {
+        font-size: 2.5rem;
+    }
+
+    .main-projects-container h3 {
+        margin-top: 5rem !important;
+    }
+
+    .project-links-container > li {
+        margin-bottom: 2.5rem;
+    }
+
+    .project-links li {
+        margin-bottom: 0.5rem;
+    }
+
+    .skills-container {
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .skills-container ul {
+        width: 100%;
+    }
+
+    .my-resume-certificates ul:first-child {
+        margin-bottom: 2.5rem;
+    }
+
+    .edu-container {
+       justify-content: center !important;
+       align-items: center;
+    }
+
+    .edu-container h6 {
+        text-align: center;
+    }
+
+    .edu-bottom {
+        margin-bottom: 2.5rem;
+    }
+
+    .my-resume-skills h3 {
+        margin-top: 2.5rem !important;
+    }
+}
