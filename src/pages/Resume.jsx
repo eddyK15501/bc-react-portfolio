@@ -178,7 +178,7 @@ const Resume = () => {
             </div>
           </div>
 
-          <div className="edu-container d-flex justify-content-between flex-wrap">
+          <div className="edu-container d-flex justify-content-between align-items-center flex-wrap">
             <div className="edu-top">
               <p style={{ fontSize: "1.1rem" }}>
                 Wake Technical Community College
@@ -187,7 +187,7 @@ const Resume = () => {
             </div>
             <div className="edu-bottom text-end">
               <ul>
-                <li>
+                <li style={{ listStyleType: 'none' }}>
                   <h6>
                     <em style={{ fontSize: "1rem" }}>
                       Associate in Science in Computer Science
