@@ -29,7 +29,9 @@ const Contact = () => {
           lg={5}
           className="d-flex flex-column justify-content-center align-items-center"
         >
-          <h1 className="text-center mb-5">Let's Connect!</h1>
+          <h1 className="text-center mb-5">
+            Let's Connect!
+          </h1>
           <div className="contact-link-container">
             <ContactLinks
               link="https://www.github.com/eddyK15501"
