@@ -10,7 +10,7 @@ const ContactForm = (props) => {
       <InputGroup.Text id={props.id}>
         <FontAwesomeIcon icon={props.icon} />
       </InputGroup.Text>
-      <Form.Control type={props.type} name={props.name} placeholder={props.placeholder} />
+      <Form.Control type={props.type} name={props.name} placeholder={props.placeholder} required />
     </InputGroup>
   );
 };

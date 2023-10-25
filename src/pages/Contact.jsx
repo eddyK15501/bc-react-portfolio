@@ -52,7 +52,8 @@ const Contact = () => {
           </div>
         </Col>
         <Col lg={7} className="d-flex justify-content-center">
-          <Form className="email-form" data-netlify="true" method="post">
+          <Form className="email-form" data-netlify="true" method="post" name="contact-form">
+            <input type="hidden" name="form-name" value="contact-form" />
             <ContactForm
               icon={faEnvelope}
               id="basic-addon1"
@@ -75,6 +76,7 @@ const Contact = () => {
               style={{ color: "grey" }}
             >
               <Form.Control
+                required
                 as="textarea"
                 name="message"
                 placeholder="Leave a comment here"
