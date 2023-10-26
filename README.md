@@ -3,7 +3,7 @@
 ![Version](https://img.shields.io/badge/Version-1.0.0-brightgreen.svg)
 
 ## Description
-`React.js` portfolio built with `Vite.js`. Utilizing React-Bootstrap as a CSS framework. Syntactically Awesome Stylesheets (Sass) integrated for enhanced styling over traditional CSS. React-Icons and FontAwesome incorporated for a diverse set of icons. Text animations added to the Homepage, using the React-Text-Transition Node.js dependency. Netlify serverless forms enabled to facilitate email configuration for the Contact page. Hosted and deployed on Netlify. Fully responsive.
+Fully responsive React portfolio built with Vite.js. Utilizing React-Bootstrap as a CSS framework. Syntactically Awesome Stylesheets (Sass) integrated for enhanced styling over traditional CSS. React-Icons and FontAwesome incorporated for a diverse set of icons. Text animations added to the Homepage, using the React-Text-Transition Node.js dependency. Netlify serverless forms enabled to facilitate email configuration for the Contact page. Hosted and deployed on Netlify.
 
 ## Link to the Deployed Application
 * <a href="https://reactportfolio-eddyk15501.netlify.app/">Click Here</a>
