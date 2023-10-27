@@ -225,8 +225,8 @@ const Resume = () => {
               <li>Next.js</li>
               <li>MySQL</li>
               <li>MongoDB</li>
-              <li>Jest</li>
               <li>GraphQL</li>
+              <li>Jest</li>
             </ul>
           </div>
         </div>
