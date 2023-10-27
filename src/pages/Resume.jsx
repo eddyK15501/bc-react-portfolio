@@ -217,16 +217,16 @@ const Resume = () => {
               <li>Responsive Layout</li>
               <li>Redux</li>
               <li>Bootstrap</li>
-              <li>SASS</li>
-              <li>Github</li>
+              <li>Git</li>
+              <li>Express.js</li>
             </ul>
 
             <ul>
               <li>Next.js</li>
-              <li>Express.js</li>
               <li>MySQL</li>
               <li>MongoDB</li>
               <li>Jest</li>
+              <li>GraphQL</li>
             </ul>
           </div>
         </div>
