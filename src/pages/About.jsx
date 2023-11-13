@@ -41,7 +41,7 @@ const About = () => {
               experience.
             </p>
             <p className="mb-4">
-              Anyway, get to know me a little bit. I'm just a fun guy who loves
+              Anyway, get to know me a little bit! I'm just a fun guy who loves
               to code, explore new technologies, and create amazing web
               experiences. Whether it's solving complex coding challenges or
               embarking on outdoor adventures, I'm always up for a good
