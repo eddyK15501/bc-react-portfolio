@@ -26,6 +26,7 @@ const About = () => {
                   src="https://user-images.githubusercontent.com/88423414/282337254-724defad-c026-4af3-bf25-d6aa7b305681.jpg"
                   alt="portfolio-image"
                 />
+                <h6 className="mt-3 text-secondary-emphasis">✌️ Nov. 12, 2023</h6>
               </a>
             </div>
           </Col>
