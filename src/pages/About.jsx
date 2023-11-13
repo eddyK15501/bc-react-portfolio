@@ -23,7 +23,7 @@ const About = () => {
                 rel="noreferrer"
               >
                 <img
-                  src="https://user-images.githubusercontent.com/88423414/277078695-7f115a5c-ec72-4038-997f-55606e4dd8d6.jpg"
+                  src="https://user-images.githubusercontent.com/88423414/282336283-4123822a-2e59-4ad7-8aca-30aaa54484f0.jpg"
                   alt="portfolio-image"
                 />
               </a>
