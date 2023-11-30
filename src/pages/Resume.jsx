@@ -6,7 +6,6 @@ import "../sass/Resume.scss";
 const Resume = () => {
   return (
     <Container
-      fluid
       className="d-flex justify-content-center align-items-center"
       id="resume"
     >
@@ -27,8 +26,12 @@ const Resume = () => {
                 <li>
                   <h5 className="mb-3">Tech Blog</h5>
                   <p className="text-muted">
-                    Fullstack web application. Write a blog, and share comments
-                    with other users. Two week build.
+                    MVC paradigm full stack web application. Write a blog, and
+                    share comments with other users. Sequelize.js ORM for
+                    relational database modeling. Backend server codes written
+                    with Express.js. Static web pages rendered using
+                    Handlebars.js templating engine. Two week build. Deployed on
+                    Heroku.
                   </p>
                   <div className="project-links mb-4">
                     <ul>
@@ -57,8 +60,8 @@ const Resume = () => {
                 <li>
                   <h5>Youtube Project</h5>
                   <p className="text-muted">
-                    Video player application that integrates the YouTube Data
-                    API v3 using Axios.
+                    Create React App written with class based components. Video
+                    player application that integrates the YouTube Data API v3.
                   </p>
                   <div className="project-links mb-4">
                     <ul>
@@ -87,8 +90,9 @@ const Resume = () => {
                 <li>
                   <h5>Timed Trivia Quiz</h5>
                   <p className="text-muted">
-                    Test your JavaScript knowledge with a simple, yet complex,
-                    timed trivia quiz.
+                    HTML, CSS, and JavaScript. Pure fundamentals to frontend web
+                    development. Test your JavaScript knowledge with a simple,
+                    yet complex, timed trivia quiz.
                   </p>
                   <div className="project-links mb-4">
                     <ul>
@@ -167,11 +171,11 @@ const Resume = () => {
           <div className="edu-container d-flex justify-content-between flex-wrap mb-4">
             <div className="edu-top">
               <p style={{ fontSize: "1.1rem" }}>
-                Fullstack Flex Coding Bootcamp
+                Full Stack Web Development Bootcamp
               </p>
               <p style={{ fontSize: "0.9rem" }}>Chapel Hill, North Carolina</p>
             </div>
-            <div className="edu-bottom text-end align-self-start">
+            <div className="edu-bottom text-end align-self-center">
               <h6>
                 <em style={{ fontSize: "0.9rem" }}>May. 2023 - Nov. 2023</em>
               </h6>
@@ -187,7 +191,7 @@ const Resume = () => {
             </div>
             <div className="edu-bottom text-end">
               <ul>
-                <li style={{ listStyleType: 'none' }}>
+                <li style={{ listStyleType: "none" }}>
                   <h6>
                     <em style={{ fontSize: "1rem" }}>
                       Associate in Science in Computer Science
@@ -206,27 +210,27 @@ const Resume = () => {
           <h3>Skills</h3>
           <div className="skills-container d-flex justify-content-between align-items-start">
             <ul>
+              <li>React.js</li>
+              <li>Redux Toolkit</li>
+              <li>JavaScript</li>
+              <li>Next.js</li>
+              <li>TypeScript</li>
+            </ul>
+
+            <ul>
               <li>HTML</li>
               <li>CSS</li>
-              <li>JavaScript</li>
-              <li>React.js</li>
-              <li>Node.js</li>
-            </ul>
-
-            <ul>
-              <li>Responsive Layout</li>
-              <li>Redux</li>
-              <li>Bootstrap</li>
               <li>Git</li>
-              <li>Express.js</li>
+              <li>Jest</li>
+              <li>Bootstrap</li>
             </ul>
 
             <ul>
-              <li>Next.js</li>
+              <li>Node.js</li>
+              <li>Express.js</li>
               <li>MySQL</li>
               <li>MongoDB</li>
               <li>GraphQL</li>
-              <li>Jest</li>
             </ul>
           </div>
         </div>
