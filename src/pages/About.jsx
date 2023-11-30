@@ -18,12 +18,12 @@ const About = () => {
           <Col lg={4} className="d-flex justify-content-center">
             <div className="img-container">
               <a
-                href="https://github.com/eddyK15501/react-portfolio-bc/issues/1"
+                href="https://github.com/eddyK15501/react-portfolio-bc"
                 target="_blank"
                 rel="noreferrer"
               >
                 <img
-                  src="https://user-images.githubusercontent.com/88423414/282337254-724defad-c026-4af3-bf25-d6aa7b305681.jpg"
+                  src="https://private-user-images.githubusercontent.com/88423414/286977418-2201c91b-6ddb-450d-b754-d98e55ac97a5.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEzNTc3NDksIm5iZiI6MTcwMTM1NzQ0OSwicGF0aCI6Ii84ODQyMzQxNC8yODY5Nzc0MTgtMjIwMWM5MWItNmRkYi00NTBkLWI3NTQtZDk4ZTU1YWM5N2E1LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzExMzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMTMwVDE1MTcyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYwMGMzMWJjZjRiMTAxZjljZjQ0NjZiNGQzMzkzNjJiY2MxMmJkNmU3YzVjZDVhMTdiNDcwMDVjOTlkM2JiNDkmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.CBGXmaTRAIPu-fWCXoiLr1ZxscLNu-suvxZ-EGXVyjM"
                   alt="portfolio-image"
                 />
                 <h6 className="mt-3 text-secondary-emphasis">✌️ Nov. 12, 2023</h6>
