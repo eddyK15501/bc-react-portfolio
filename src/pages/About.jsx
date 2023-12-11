@@ -2,6 +2,7 @@
 /* eslint-disable no-unused-vars */
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
+import Image from '../images/20231125_135239.jpg'
 import "../sass/About.scss";
 
 const About = () => {
@@ -23,7 +24,7 @@ const About = () => {
                 rel="noreferrer"
               >
                 <img
-                  src="https://private-user-images.githubusercontent.com/88423414/287524279-e69ada94-19d4-4551-b8ed-cc479aff8a26.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDE2MTM0MjgsIm5iZiI6MTcwMTYxMzEyOCwicGF0aCI6Ii84ODQyMzQxNC8yODc1MjQyNzktZTY5YWRhOTQtMTlkNC00NTUxLWI4ZWQtY2M0NzlhZmY4YTI2LmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzEyMDMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMjAzVDE0MTg0OFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTViYjU0ZGMxOWM2NDdmNjRjZGE3NWFkOTEyMzA3YTI1NmFjMmYxZjg5MmYxYTQyMzU1Zjk5MjQzMWJkYWRkMWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.7Q4UMkxrylEMLBuhuKMQX4rlyuDWcA6ARPUfidQ7ja4"
+                  src={Image}
                   alt="portfolio-image"
                 />
                 <h6 className="mt-3 text-secondary-emphasis">✌️ Nov. 12, 2023</h6>
