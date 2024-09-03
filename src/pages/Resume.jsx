@@ -175,11 +175,6 @@ const Resume = () => {
               </p>
               <p style={{ fontSize: "0.9rem" }}>Chapel Hill, North Carolina</p>
             </div>
-            <div className="edu-bottom text-end align-self-center">
-              <h6>
-                <em style={{ fontSize: "0.9rem" }}>May. 2023 - Nov. 2023</em>
-              </h6>
-            </div>
           </div>
 
           <div className="edu-container d-flex justify-content-between align-items-center flex-wrap">
@@ -199,9 +194,6 @@ const Resume = () => {
                   </h6>
                 </li>
               </ul>
-              <h6>
-                <em style={{ fontSize: "0.9rem" }}>Aug. 2015 - Feb. 2017</em>
-              </h6>
             </div>
           </div>
         </div>
